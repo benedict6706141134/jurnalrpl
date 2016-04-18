@@ -8,6 +8,7 @@ public class JavaApplication2 {
         int a=1;
         int b=0;
         int c=0;
+        int hasil=0;
         Scanner input = new Scanner (System.in);
         
         System.out.print("Input :");
@@ -15,9 +16,13 @@ public class JavaApplication2 {
         System.out.println("Output :");
         for ( int i=1; i<=c; i++)
             {
-                System.out.print("  "+a);
+                
                 a=a+b;
                 b=a-b;
+                hasil=hasil+a;
             }//*benedict*//
+        System.out.println(hasil);
+        
     }
+    
     }
